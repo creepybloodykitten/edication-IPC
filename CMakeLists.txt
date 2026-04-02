@@ -7,3 +7,6 @@ add_executable(unnamed_pipes_example unnamed_pipes.cpp)
 
 add_executable(client_fifo named_pipes/client_fifo.cpp)
 add_executable(server_fifo named_pipes/server_fifo.cpp)
+
+add_executable(server_mq message_queues/server_msg.cpp)
+add_executable(client_mq message_queues/client_msg.cpp)
